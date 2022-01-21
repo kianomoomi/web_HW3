@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+<html>
+  <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </link>
+</head>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+</div>
+</html>
+
+
 function App() {
   return (
     <div className="App">
@@ -9,16 +21,10 @@ function App() {
         <p>
           Web programming
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reactx
-        </a>
+        
       </header>
     </div>
+    
   );
 }
 
@@ -45,5 +51,6 @@ function delete_note(id){
   // endpoint /notes/<note_id>
   // delete a note
 }
+
 
 export default App;
