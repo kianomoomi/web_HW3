@@ -15,11 +15,35 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactx
         </a>
       </header>
     </div>
   );
+}
+
+function login(){
+  // handle user login and authorization and authentication
+}
+
+function create_new_note(){
+  // endpoint /notes/new
+  // for creating a new note 
+}
+
+function get_note(id){
+  // endpoint /notes/<note_id>
+  // get a note by id
+}
+
+function update_note(id){
+  // endpoint /notes/<note_id>
+  // update a note 
+}
+
+function delete_note(id){
+  // endpoint /notes/<note_id>
+  // delete a note
 }
 
 export default App;
